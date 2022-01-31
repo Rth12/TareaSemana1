@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <br />
+    <h1> Registro de personas </h1>
+    <h3> Datos personales </h3>
+    <form action="" method="">
+      <p> Nombre completo:  
+         <input type="text" placeholder="Nombre(s)" name="Nombre" id="mi_nombre" required/>
+         <input type="text" placeholder="Apellidos" name="Apellidos" id="mis_apellidos" required />
+    </p>
+    <p> Fecha de nacimiento: 
+        <input type="date"/>
+    </p>
+    <p> DNI: 
+        <input type="number" placeholder="DNI" name="DNI" minlength="8" maxlength="8" required/>
+    </p>
+    <p> Teléfono: 
+        <input type="number" placeholder="Teléfono" name="Teléfono" minlength="9" maxlength="9" required/>
+    </p>
+    <p> Correo: 
+        <input type="email" placeholder="Correo" name="Correo" required/>
+    </p>
+    <p> Dirección: 
+        <input type="text" placeholder="Dirección" name="Dirección" required/>
+    </p>
+    <p> <h3> Curso de interés: </h3> 
+        <input type="radio" name="Curso 1"/> Curso 1
+        <input type="radio" name="Curso 2"/> Curso 2
+        <input type="radio" name="Curso 3"/> Curso 3
+        <input type="radio" name="Curso 4"/> Curso 4
+        <input type="radio" name="Curso 5"/> Curso 5
+    </p>
+    <br />
+    <input type="submit"/>
+    </form>
+</body>
+</html>
